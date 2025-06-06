@@ -1,0 +1,162 @@
+@import './normilize.css';
+@import './variables.css';
+@import './fonts.css';
+@import './components/hover.css';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import './components/header.css';
+@import './components/form.css';
+@import './components/footer.css';
+@import './components/reviews.css';
+@import './lines.css';
+
+a {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.title {
+    font-family: 'Steppe';
+    font-weight: 500;
+    font-size: 107px;
+    color: var(--grey);
+}
+
+.blur-mob {
+    display: none;
+}
+
+.adapе {
+    display: none;
+}
+
+.mob {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    .title {
+        font-size: 90px;
+    }
+
+    main {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .title {
+        font-size: 70px;
+    }
+
+    main {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .title {
+        font-size: 50px;
+    }
+
+    main {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+        .no-mob {
+        display: none;
+    }
+
+
+    .mob {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .title {
+        font-size: 40px;
+    }
+
+    main {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .black {
+        display: none;
+    }
+
+    .blur-mob {
+        position: absolute;
+        display: flex;
+        bottom: 0;
+        width: 100%;
+        height: 400px;
+        z-index: -5;
+        backdrop-filter: blur(5px);
+        background-color: rgba(170, 163, 155, 0.1);
+        clip-path: polygon(100.00% 47.57%,100.00% 100%,0.00% 100%,0.00% 25.43%);
+      }
+
+    .adapе {
+        display: block;
+    }
+
+    .no-mob {
+        display: none;
+    }
+
+    .mob {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .title {
+        font-size: 40px;
+    }
+
+        .no-mob {
+        display: none;
+    }
+
+
+    .mob {
+        display: block;
+    }
+
+    main {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .adapе {
+        display: block;
+    }
+
+    .black {
+        display: none;
+    }
+
+    .blur-mob {
+        position: absolute;
+        display: flex;
+        bottom: 0;
+        width: 100%;
+        height: 340px;
+        z-index: -5;
+        backdrop-filter: blur(5px);
+        background-color: rgba(170, 163, 155, 0.1);
+        clip-path: polygon(100.00% 47.57%,100.00% 100%,0.00% 100%,0.00% 25.43%);
+      }
+}

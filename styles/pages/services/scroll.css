@@ -1,0 +1,130 @@
+.sticky-parent {
+  height: 130vh;
+  padding: 0 0;
+}
+.sticky {
+  position: sticky;
+  top: 0px;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.dim {
+  display: block;
+  height: 100vh;
+  min-width: 720px;
+  max-width: 720px;
+}
+.horizontal {
+  display: flex;
+  padding: 0 0;
+}
+.br {
+  outline: solid;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .sticky-parent {
+    height: 200vh;
+  }
+
+  .dim {
+    max-width: 100vw;
+    min-width: 50vw;
+  }
+
+  .horizontal {
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sticky-parent {
+    height: 200vh;
+    padding: 0px 30px;
+  }
+  .sticky {
+    position: sticky;
+    top: 0px;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .horizontal {
+    display: flex;
+  }
+  .br {
+    outline: solid;
+  }
+  .dim {
+    display: block;
+    min-width: 60vw;
+    row-gap: 20px;
+    padding: 20px 20px 0px 20px;
+    height: 470px !important;
+  }
+
+  .sticky-parent {
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .sticky-parent {
+    height: 200vh;
+    padding: 0px 30px;
+  }
+  .sticky {
+    position: sticky;
+    top: 0px;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .dim {
+    display: block;
+    min-width: 90vw;
+    height: 100vh;
+  }
+  .horizontal {
+    display: flex;
+  }
+  .br {
+    outline: solid;
+  }
+
+  .sticky-parent {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .services-main__project-txt {
+    font-size: 14px;
+  }
+
+    .sticky-parent {
+    height: 100vh;
+  }
+
+  .horizontal {
+    padding: 0px 16px;
+    column-gap: 30px;
+  }
+
+  .dim {
+    display: block;
+    min-width: 90vw;
+    height: 470px !important;
+  }
+
+  .sticky-parent,
+  .horizontal {
+    padding: 0px;
+  }
+}
+
+.f {
+  margin-left: 0px;
+}
+

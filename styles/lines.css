@@ -1,0 +1,50 @@
+.grey-lines {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    column-gap: 22.1%;
+    padding: 0px 101px;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    margin-left: 0px;
+}
+
+.bg-line {
+    height: 100%;
+    width: 0.5px;
+    background-color: rgba(230, 230, 230, 0.7);
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .grey-lines {
+        padding: 0px 61px;
+        column-gap: 15%;
+        width: 100%;
+    }
+
+    .bg-line:nth-child(4) {
+        display: none;
+    }
+
+    .bg-line:nth-child(5) {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .grey-lines {
+        display: none;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .grey-lines {
+        display: none;
+    }
+}
+@media screen and (max-width: 479px) {
+    .grey-lines {
+        display: none;
+    }
+}

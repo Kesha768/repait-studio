@@ -1,0 +1,1330 @@
+@import '../components/our-team.css';
+@import './barbershop/other-projects.css';
+@import './barbershop/blurblock.css';
+.about-main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+}
+
+.bold {
+    font-weight: 650 !important;
+}
+
+.about-title {
+    margin-right: auto;
+    margin-left: 100px;
+    margin-bottom: -40px;
+}
+
+.about-staff__title--mob {
+    display: none;
+}
+
+.principles {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    padding-left: 100px;
+    padding-right: 245px;
+    position: relative;
+    width: 100%;
+}
+
+.principles-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+
+.principles-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 186px;
+    align-items: center;
+}
+
+.principles-card-right {
+    justify-content: end;
+}
+
+.principles-card__img {
+    width: 547px;
+    height: 380px;
+}
+
+.principles-card__text {
+    max-width: 843px;
+    font-family: "Steppe";
+    font-size: 20px;
+    font-weight: 350;
+    color: var(--grey);
+    line-height: 130%;
+}
+
+.principles-line {
+    width: 843px;
+    height: 1px;
+    background: rgba(230, 230, 230, 0.7);
+    margin-left: auto;
+}
+
+.about-staff {
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+    width: 100%;
+}
+
+.about-staff__title {
+    margin-left: 100px;
+}
+
+.about-staff-row {
+    width: 100%;
+    height: 930px;
+    position: relative;
+}
+
+.about-staff__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1087px;
+    height: 857px;
+    z-index: -1;
+}
+
+.about-staff-card {
+    width: 1087px;
+    height: 829px;
+    background: #383838;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 76px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.about-staff-card__text {
+    display: flex;
+    flex-direction: row;
+    column-gap: 14px;
+    align-items: start;
+}
+
+.about-staff-card__text-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.about-staff-card__text-icon--right {
+    margin-top: auto;
+}
+
+.about-staff-card__text-title {
+    font-family: 'Steppe';
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    line-height: 100%;
+}
+
+.about-staff-card__name {
+    font-family: 'Steppe';
+    font-size: 20px;
+    font-weight: 350;
+    color: var(--light-grey);
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.about-staff__tabs {
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 0px;
+    z-index: 2;
+    position: relative;
+    width: auto;
+    height: 455px;
+    margin: 351px;
+    margin-left: 100px;
+}
+
+.about-staff__tabs-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    align-items: start;
+    width: 386px;
+    padding-top: 30px;
+    padding-left: 24px;
+    position: relative;
+    background: rgb(255, 255, 255);
+}
+
+.sl1 {
+    margin-right: 0px;
+    transition: margin-right 0.5s ease;
+}
+
+.last-slide {
+    margin-left: -386px;
+    z-index: -1000;
+    transition: margin-left 0.5s ease;
+}
+
+.sl2 {
+    transition: margin-right 0.5s ease;
+}
+
+.about-staff__tabs-item--right {
+    border-left: 1px solid #00000026;
+    height: 100%;
+}
+
+.about-staff__tabs-item-number {
+    font-family: 'Steppe';
+    color: var(--yellow);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-staff__tabs-item-title {
+    font-family: 'Steppe';
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--grey);
+    margin-top: 25px;
+}
+
+.about-staff__tabs-item-text {
+    font-family: 'Steppe';
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 130%;
+    color: var(--grey);
+    max-width: 306px;
+}
+
+.about-staff__tabs-item-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-left: 100px;
+    margin-right: 100px;
+    column-gap: 100px;
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    align-items: start;
+}
+
+.features-item__title {
+    font-family: 'Steppe';
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--grey);
+    line-height: 100%;
+}
+
+.features-item__text {
+    font-family: 'Steppe';
+    font-size: 20px;
+    font-weight: 350;
+    color: var(--grey);
+    line-height: 130%;
+    max-width: 487px;
+}
+
+.features-item__text--grey {
+    color: #888888;
+}
+
+.about-main__company {
+    width: 100%;
+    height: auto;
+}
+
+.about-main__description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    width: 100%;
+    row-gap: 70px;
+}
+
+.about-main__description-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.about-main__description-content__links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.about-main__description-content__links-item {
+    cursor: pointer;
+    font-family: 'Steppe';
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--grey);
+    line-height: 100%;
+}
+
+.about-main__description-content__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 990px;
+}
+
+.about-main__description-content__text-item {
+    font-family: 'Steppe';
+    font-size: 20px;
+    font-weight: 350;
+    color: var(--grey);
+    line-height: 130%;
+}
+
+.about-main__description-content__text-item--bold {
+    font-weight: 700;
+}
+
+.about-slide {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 174px;
+}
+
+.pnt {
+    width: 572px;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    .about-main {
+        row-gap: 100px;
+    }
+
+    .about-slide {
+        margin-left: 20px;
+    }
+
+    .about-slideimg {
+        height: 400px;
+                object-fit: cover;
+        margin-top: 6px;
+        max-width: 286px;
+    }
+
+    .about-title {
+        margin-right: auto;
+        margin-left: 100px;
+        margin-bottom: -40px;
+    }
+    
+    .principles {
+        row-gap: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .principles-cards {
+        row-gap: 40px;
+    }
+    
+    .principles-card {
+        column-gap: 120px;
+    }
+    
+    .principles-card-right {
+        justify-content: end;
+    }
+    
+    .principles-card__img {
+        width: 500px;
+        height: 360px;
+    }
+    
+    .principles-card__text {
+        max-width: 640px;
+        font-size: 20px;
+    }
+    
+    .principles-line {
+        width: 640px;
+        height: 1px;
+    }
+    
+    .about-staff {
+        row-gap: 120px;
+        width: 100%;
+    }
+    
+    .about-staff__title {
+        margin-left: 100px;
+    }
+    
+    .about-staff-row {
+        width: 100%;
+        height: 870px;
+    }
+    
+    .about-staff__img {
+        width: 1000px;
+        height: 820px;
+    }
+    
+    .about-staff-card {
+        width: 950px;
+        height: 780px;
+        row-gap: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 70px;
+    }
+    
+    .about-staff-card__text {
+        column-gap: 14px;
+    }
+    
+    .about-staff-card__text-icon {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .about-staff-card__text-icon--right {
+        margin-top: auto;
+    }
+    
+    .about-staff-card__text-title {
+        font-size: 28px;
+    }
+    
+    .about-staff-card__name {
+        font-size: 18px;
+        margin-right: 50px;
+    }
+    
+    .about-staff__tabs {
+        height: 400px;
+        margin-top: 340px;
+        margin-left: 80px;
+    }
+    
+    .about-staff__tabs-item {
+        row-gap: 20px;
+        width: 286px;
+        padding-top: 30px;
+        padding-left: 24px;
+    }
+    
+    .about-staff__tabs-item--right {
+        border-left: 1px solid #00000026;
+        height: 400px;
+    }
+    
+    .about-staff__tabs-item-number {
+        font-size: 30px;
+    }
+    
+    .about-staff__tabs-item-title {
+        font-size: 22px;
+        margin-top: 22px;
+    }
+    
+    .about-staff__tabs-item-text {
+        font-size: 18px;
+        max-width: 306px;
+    }
+    
+    .features {
+        padding-left: 105px;
+        padding-right: 100px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .features-item {
+        row-gap: 50px;
+    }
+    
+    .features-item__title {
+        font-size: 36px;
+    }
+    
+    .features-item__text {
+        font-size: 20px;
+        max-width: 460px;
+    }
+    
+    .about-main__description {
+        padding-left: 105px;
+        padding-right: 105px;
+        row-gap: 50px;
+    }
+    
+    .about-main__description-content {
+        width: 100%;
+    }
+    
+    .about-main__description-content__links {
+        row-gap: 10px;
+    }
+    
+    .about-main__description-content__links-item {
+        font-size: 15px;
+    }
+    
+    .about-main__description-content__text {
+        row-gap: 30px;
+        width: 990px;
+    }
+    
+    .about-main__description-content__text-item {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .about-main {
+        row-gap: 80px;
+    }
+    
+    .about-title {
+        margin-right: auto;
+        margin-left: 60px;
+        margin-bottom: -40px;
+    }
+
+    .principles {
+        row-gap: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    .principles-cards {
+        row-gap: 40px;
+    }
+    
+    .principles-card {
+        column-gap: 40px;
+    }
+    
+    .principles-card-right {
+        justify-content: end;
+    }
+    
+    .principles-card__img {
+        width: 500px;
+        height: 360px;
+    }
+
+    .about-slide {
+        margin-left: 0px;
+    }
+
+    .about-slideimg {
+        height: 300px;
+        margin-top: -4px;
+        object-fit: cover;
+        max-width: 226px;
+    }
+    
+    .principles-card__text {
+        max-width: 700px;
+        font-size: 20px;
+    }
+    
+    .principles-line {
+        width: 100%;
+        height: 1px;
+    }
+    
+    .about-staff {
+        row-gap: 60px;
+        width: 100%;
+    }
+    
+    .about-staff__title {
+        margin-left: 60px;
+    }
+    
+    .about-staff-row {
+        width: 100%;
+        height: 700px;
+    }
+    
+    .about-staff__img {
+        width: 850px;
+        height: 650px;
+        display: none;
+    }
+    
+    .about-staff-card {
+        width: 100%;
+        height: 620px;
+        row-gap: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+    
+    .about-staff-card__text {
+        column-gap: 10px;
+    }
+    
+    .about-staff-card__text-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .about-staff-card__text-icon--right {
+        margin-top: auto;
+    }
+    
+    .about-staff-card__text-title {
+        font-size: 24px;
+    }
+    
+    .about-staff-card__name {
+        font-size: 16px;
+        margin-right: auto;
+        margin-left: 300px;
+    }
+    
+    .about-staff__tabs {
+        width: 950px;
+        height: 300px;
+        margin-top: 290px;
+        margin-left: 40px;
+    }
+    
+    .about-staff__tabs-item {
+        row-gap: 10px;
+        min-width: 226px;
+        max-width: 226px;
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+    
+    .about-staff__tabs-item--right {
+        border-left: 1px solid #00000026;
+        height: 300px;
+    }
+    
+    .about-staff__tabs-item-number {
+        font-size: 20px;
+    }
+    
+    .about-staff__tabs-item-title {
+        font-size: 20px;
+        margin-top: 22px;
+    }
+    
+    .about-staff__tabs-item-text {
+        font-size: 14px;
+        font-weight: 400;
+        max-width: 220px;
+    }
+    
+    .features {
+        margin-left: 65px;
+        margin-right: 65px;
+        column-gap: 40px;
+    }
+
+    .last-slide {
+        margin-left: -226px;
+    }
+    
+    .features-item {
+        row-gap: 30px;
+    }
+    
+    .features-item__title {
+        font-size: 30px;
+    }
+    
+    .features-item__text {
+        font-size: 18px;
+        max-width: 460px;
+    }
+    
+    .about-main__description {
+        padding-left: 65px;
+        padding-right: 65px;
+        row-gap: 20px;
+    }
+    
+    .about-main__description-content {
+        width: 100%;
+    }
+    
+    .about-main__description-content__links {
+        row-gap: 10px;
+    }
+    
+    .about-main__description-content__links-item {
+        font-size: 15px;
+    }
+    
+    .about-main__description-content__text {
+        row-gap: 20px;
+        width: 800px;
+    }
+    
+    .about-main__description-content__text-item {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .about-main {
+        row-gap: 40px;
+    }
+
+    .sl1 {
+        margin-right: 0px;
+    }
+    
+    .about-slide {
+        display: none;
+    }
+    
+    .about-title {
+        margin-right: auto;
+        margin-left: 20px;
+        margin-bottom: -10px;
+    }
+
+    .principles {
+        row-gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .principles-cards {
+        row-gap: 20px;
+    }
+    
+    .principles-card {
+        column-gap: 20px;
+    }
+    
+    .principles-card-right {
+        justify-content: end;
+    }
+    
+    .principles-card__img {
+        width: 400px;
+        height: 280px;
+    }
+    
+    .principles-card__text {
+        max-width: 400px;
+        font-size: 16px;
+    }
+    
+    .principles-line {
+        width: 100%;
+        height: 1px;
+    }
+    
+    .about-staff {
+        row-gap: 30px;
+        width: 100%;
+    }
+    
+    .about-staff__title {
+        margin-left: 20px;
+    }
+    
+    .about-staff-row {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .about-staff__img {
+        width: 600px;
+        height: 480px;
+    }
+    
+    .about-staff-card {
+        width: 600px;
+        height: 450px;
+        row-gap: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    
+    .about-staff-card__text {
+        column-gap: 10px;
+    }
+    
+    .about-staff-card__text-icon {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .about-staff-card__text-icon--right {
+        margin-top: auto;
+    }
+    
+    .about-staff-card__text-title {
+        font-size: 20px;
+    }
+    
+    .about-staff-card__name {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    
+    .about-staff__tabs {
+        width: 720px;
+        height: 250px;
+        margin-top: 170px;
+        margin-left: 20px;
+    }
+    
+    .about-staff__tabs-item {
+        row-gap: 10px;
+        width: 326px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .about-staff__tabs-item--right {
+        border-left: 1px solid #00000026;
+        height: 250px;
+        max-width: 196px;
+    }
+    
+    .about-staff__tabs-item-number {
+        font-size: 18px;
+    }
+    
+    .about-staff__tabs-item-title {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    
+    .about-staff__tabs-item-text {
+        font-size: 12px;
+        font-weight: 400;
+        max-width: 220px;
+    }
+    
+    .features {
+        margin-left: 20px;
+        margin-right: 20px;
+        column-gap: 20px;
+    }
+    
+    .features-item {
+        row-gap: 20px;
+    }
+    
+    .features-item__title {
+        font-size: 24px;
+    }
+    
+    .features-item__text {
+        font-size: 14px;
+        max-width: 460px;
+    }
+    
+    .about-main__description {
+        padding-left: 20px;
+        padding-right: 20px;
+        row-gap: 20px;
+    }
+    
+    .about-main__description-content {
+        width: 100%;
+    }
+    
+    .about-main__description-content__links {
+        row-gap: 10px;
+    }
+    
+    .about-main__description-content__links-item {
+        font-size: 15px;
+    }
+    
+    .about-main__description-content__text {
+        row-gap: 10px;
+        width: 600px;
+    }
+    
+    .about-main__description-content__text-item {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .about-title {
+        color: white;
+        margin-left: 16px;
+        margin-top: 370px;
+    }
+
+    .header-bg--mobile-text {
+        margin-top: 20px;
+        margin-left: 16px;
+        margin-right: auto;
+    }
+
+    .about-main {
+        row-gap: 30px;
+    }
+    
+    .about-title {
+        margin-right: auto;
+        margin-left: 20px;
+        margin-bottom: -10px;
+    }
+
+    .principles {
+        flex-direction: column;
+        row-gap: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .principles-cards {
+        row-gap: 30px;
+    }
+    
+    .principles-card {
+        row-gap: 30px;
+        flex-direction: column-reverse;
+    }
+    
+    .principles-card-right {
+        justify-content: end;
+    }
+    
+    .principles-card__img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .principles-card__text {
+        max-width: 100%;
+        font-size: 14px;
+    }
+    
+    .principles-line {
+        display: none;
+    }
+    
+    .about-staff {
+        row-gap: 20px;
+        width: 100%;
+    }
+    
+    .about-staff__title {
+        display: none;
+    }
+
+    .about-staff__title--mob {
+        display: block;
+        margin-left: 16px;
+    }
+    
+    .about-staff-row {
+        width: 100%;
+        height: 840px;
+    }
+    
+    .about-staff__img {
+        width: 320px;
+        height: 240px;
+    }
+    
+    .about-staff-card {
+        width: 320px;
+        height: 200px;
+        row-gap: 15px;
+        padding-left: 11px;
+        padding-right: 20px;
+        padding-top: 20px;
+        top: 70px;
+    }
+    
+    .about-staff-card__text {
+        column-gap: 10px;
+    }
+    
+    .about-staff-card__text-icon {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .about-staff-card__text-icon--right {
+        margin-top: auto;
+    }
+    
+    .about-staff-card__text-title {
+        font-size: 16px;
+    }
+    
+    .about-staff-card__name {
+        font-size: 14px;
+        margin-right: 0px;
+        text-align: right;
+        width: 200px;
+    }
+    
+    .about-staff__tabs {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background: transparent;
+        margin-top: 270px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .about-staff__tabs-item {
+        row-gap: 10px;
+        width: 100%;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #00000033;
+    }
+    
+    .about-staff__tabs-item--right {
+        border-left: none;
+    }
+    
+    .about-staff__tabs-item-number {
+        font-size: 18px;
+    }
+    
+    .about-staff__tabs-item-title {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    
+    .about-staff__tabs-item-text {
+        font-size: 14px;
+        width: 100%;
+    }
+    
+    .features {
+        margin-left: 16px;
+        margin-right: 16px;
+        row-gap: 20px;
+        flex-direction: column;
+    }
+    
+    .features-item {
+        row-gap: 20px;
+        border-bottom: 1px solid #00000033;
+        padding-bottom: 20px;
+    }
+    
+    .features-item__title {
+        font-size: 24px;
+    }
+    
+    .features-item__text {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .about-main__company {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+    
+    .about-main__description {
+        padding-left: 16px;
+        padding-right: 16px;
+        row-gap: 20px;
+    }
+    
+    .about-main__description-content {
+        width: 100%;
+    }
+
+    .about-slide {
+        display: none;
+    }
+    
+    
+    .about-main__description-content__links {
+        display: none;
+    }
+    
+    .about-main__description-content__text-item:nth-child(1) {
+        display: none;
+    }
+
+    .about-main__description-content__text {
+        row-gap: 10px;
+        width: 100%;
+    }
+
+        .pnt {
+    width: auto;
+}
+    
+    .about-main__description-content__text-item {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .about-title {
+        color: white;
+        margin-left: 16px;
+        margin-top: 210px;
+    }
+
+    .pnt {
+    width: auto;
+}
+
+    .header-bg--mobile-text {
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-right: auto;
+    }
+
+    .about-main {
+        row-gap: 20px;
+    }
+    
+    .about-title {
+        margin-right: auto;
+        margin-left: 20px;
+        margin-bottom: -10px;
+    }
+
+    .principles {
+        flex-direction: column;
+        row-gap: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .principles-cards {
+        row-gap: 30px;
+    }
+    
+    .principles-card {
+        row-gap: 30px;
+        flex-direction: column-reverse;
+    }
+    
+    .principles-card-right {
+        justify-content: end;
+    }
+    
+    .principles-card__img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .principles-card__text {
+        max-width: 100%;
+        font-size: 14px;
+    }
+    
+    .principles-line {
+        display: none;
+    }
+    
+    .about-staff {
+        row-gap: 20px;
+        width: 100%;
+    }
+    
+    .about-staff__title {
+        display: none;
+    }
+
+    .about-staff__title--mob {
+        display: block;
+        margin-left: 16px;
+    }
+    
+    .about-staff-row {
+        width: 100%;
+        height: 840px;
+    }
+    
+    .about-staff__img {
+        width: 239px;
+        height: 172px;
+    }
+    
+    .about-staff-card {
+        width: 239px;
+        height: 168px;
+        row-gap: 15px;
+        padding-left: 11px;
+        padding-right: 20px;
+        padding-top: 20px;
+        top: 98px;
+    }
+    
+    .about-staff-card__text {
+        column-gap: 10px;
+    }
+    
+    .about-staff-card__text-icon {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .about-staff-card__text-icon--right {
+        margin-top: auto;
+    }
+    
+    .about-staff-card__text-title {
+        font-size: 14px;
+    }
+    
+    .about-staff-card__name {
+        font-size: 12px;
+        margin-right: 0px;
+        text-align: right;
+        width: 143px;
+    }
+
+    .about-slide {
+        display: none;
+    }
+    
+    .about-staff__tabs {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background: transparent;
+        margin-top: 270px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .about-staff__tabs-item {
+        row-gap: 10px;
+        width: 100%;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #00000033;
+    }
+    
+    .about-staff__tabs-item--right {
+        border-left: none;
+    }
+    
+    .about-staff__tabs-item-number {
+        font-size: 16px;
+    }
+    
+    .about-staff__tabs-item-title {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    
+    .about-staff__tabs-item-text {
+        font-size: 14px;
+        width: 100%;
+    }
+    
+    .features {
+        margin-left: 16px;
+        margin-right: 16px;
+        row-gap: 20px;
+        flex-direction: column;
+    }
+    
+    .features-item {
+        row-gap: 20px;
+        border-bottom: 1px solid #00000033;
+        padding-bottom: 20px;
+    }
+    
+    .features-item__title {
+        font-size: 24px;
+    }
+    
+    .features-item__text {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .about-main__company {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+    
+    .about-main__description {
+        padding-left: 16px;
+        padding-right: 16px;
+        row-gap: 20px;
+    }
+    
+    .about-main__description-content {
+        width: 100%;
+    }
+    
+    .about-main__description-content__links {
+        display: none;
+    }
+    
+    .about-main__description-content__text-item:nth-child(1) {
+        display: none;
+    }
+
+    .about-main__description-content__text {
+        row-gap: 10px;
+        width: 100%;
+    }
+    
+    .about-main__description-content__text-item {
+        font-size: 14px;
+    }
+}

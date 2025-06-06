@@ -1,0 +1,134 @@
+@import './slider-gallery.css';
+@import './slider-cards.css';
+@import './base-services.css';
+@import '../../components/modal.css';
+
+.services-main__points {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: 100%;
+}
+
+.adapе-us {
+  display: none;
+}
+
+.services-main__point {
+  display: flex;
+  flex-direction: row;
+  column-gap: 55px;
+  width: 100%;
+}
+
+.services-main__point-number {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: var(--darkgrey);
+}
+
+.services-main__point-txt {
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: var(--darkgrey);
+}
+
+.services-main__drawings {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.services-main__drawings-img {
+  max-height: 100%;
+}
+
+.all-proects {
+  margin-bottom: 0px;
+  width: 251px;
+  height: 48px;
+  background-color: var(--white);
+  padding: 15px 24px;
+  border: 1px solid #3A3A3A;
+  color: #3A3A3A;
+  font-weight: 350;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 44%;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .all-proects {
+    margin-left: 43%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .all-proects {
+    margin-left: 42%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .services-main__drawings {
+    row-gap: 60px;
+  }
+
+  
+      .all-proects {
+        margin-left: auto;
+      }
+
+  .adapе-us {
+  display: block;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .services-main__point {
+    column-gap: 20px;
+  }
+
+    .adapе-us {
+  display: block;
+  }
+
+  .services-main__point-txt {
+    font-size: 18px;
+  }
+    
+      .all-proects {
+        margin-left: auto;
+      }
+  
+  .services-main__drawings {
+    row-gap: 30px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .services-main__point {
+    column-gap: 20px;
+  }
+    
+      .all-proects {
+        margin: auto;
+      }
+
+  .services-main__point-txt {
+    font-size: 16px;
+  }
+  
+      .adapе-us {
+  display: block;
+  }
+  
+
+  .services-main__drawings {
+    row-gap: 20px;
+  }
+}

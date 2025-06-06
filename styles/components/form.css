@@ -1,0 +1,1040 @@
+.application {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 593px;
+  border: 1px solid var(--grey);
+  column-gap: 63px;
+  padding: 63px;
+  padding-left: 100px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: none;
+  z-index: 999;
+  background: white;
+}
+
+.application--mobile {
+  display: none;
+}
+
+.wrap-input-for-icons {
+  width: 100%;
+}
+
+.application-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.application-info__title {
+  font-family: "Steppe";
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--grey);
+}
+
+.application-info__text {
+  font-family: "Steppe";
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--grey);
+}
+
+.application-info__select {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  row-gap: 65px;
+  width: 930px;
+}
+
+.application-complete {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  margin-top: auto;
+}
+
+.application-complete-text {
+  display: none;
+  font-family: "Steppe";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  margin-bottom: auto;
+}
+
+.application-info__select-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: start;
+}
+
+.application-info__select-title {
+  font-family: "Steppe";
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--grey);
+}
+
+.application-info__select-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 34px;
+}
+
+.application-form__checkbox-span {
+  max-width: 92%;
+}
+
+.application-info__select-checkbox {
+  display: none;
+}
+
+.application-info__select-label {
+  width: 200px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--grey);
+  cursor: pointer;
+  color: var(--grey);
+  font-family: "Steppe";
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.dop-margin {
+  margin-left: 25px;
+}
+
+.application-info__select-checkbox:checked + .application-info__select-label {
+  border: 1px solid var(--yellow);
+}
+
+.application-form {
+  width: 567px;
+  height: 474px;
+  background: #1e1e20;
+  display: flex;
+  flex-direction: column;
+  row-gap: 52px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 47px;
+  padding-bottom: 40px;
+}
+
+.application-form__title {
+  color: white;
+  font-family: "Steppe";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.application-form__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 44px;
+}
+
+.application-form__input {
+  background: transparent;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 8px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Steppe";
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.application-form__input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Steppe";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.application-form__input--red {
+  border-bottom: 1px solid #ae3737 !important;
+}
+
+.application-form__input--red::placeholder {
+  color: #ae3737 !important;
+}
+
+.application-form__input-row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 34px;
+}
+
+.application-form__button {
+  width: 100%;
+  height: 48px;
+  background: var(--yellow);
+  border: none;
+  color: var(--grey);
+  font-family: "Steppe";
+  font-weight: 400;
+  padding-top: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.application-form__checkbox {
+  margin-top: -10px;
+}
+
+.application-form__checkbox-input {
+  display: none;
+}
+
+.application-form__checkbox-label {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.application-form__checkbox-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: white;
+}
+
+.application-form__checkbox-gal {
+  display: none;
+}
+
+.application-form__checkbox-input:checked
+  + .application-form__checkbox-label
+  .application-form__checkbox-gal {
+  width: 11.2px;
+  height: 11.2px;
+  display: block;
+}
+
+.application-form__checkbox-span {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Steppe";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.application-bg {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  right: 0;
+  top: -1px;
+  z-index: -1;
+}
+
+.appl-cont {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .application {
+    height: 500px;
+    column-gap: 40px;
+    padding: 40px;
+    padding-left: 40px;
+  }
+
+  .appl-cont {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .application-info {
+    row-gap: 20px;
+  }
+
+  .application-info__title {
+    font-size: 40px;
+  }
+
+  .application-info__text {
+    font-size: 20px;
+  }
+
+  .application-info__select {
+    column-gap: 30px;
+    row-gap: 35px;
+    width: auto;
+  }
+
+  .application-info__select-item {
+    row-gap: 20px;
+  }
+
+  .application-info__select-title {
+    font-size: 18px;
+  }
+
+  .application-info__select-list {
+    column-gap: 25px;
+  }
+
+  .application-info__select-checkbox {
+    display: none;
+  }
+
+  .application-info__select-label {
+    width: 170px;
+    height: 48px;
+    font-size: 15px;
+  }
+
+  .dop-margin {
+    margin-left: 5px;
+  }
+
+  .application-form {
+    width: 800px;
+    height: 420px;
+    row-gap: 52px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+  .application-form__title {
+    font-size: 20px;
+  }
+
+  .application-form__form {
+    row-gap: 30px;
+  }
+
+  .application-form__input {
+    padding-bottom: 8px;
+    font-size: 15px;
+  }
+
+  .application-form__input::placeholder {
+    font-size: 15px;
+  }
+
+  .application-form__input-row {
+    column-gap: 25px;
+  }
+
+  .application-form__button {
+    height: 48px;
+    font-size: 15px;
+  }
+
+  .application-form__checkbox {
+    margin-top: 0px;
+  }
+
+  .application-form__checkbox-input {
+    display: none;
+  }
+
+  .application-form__checkbox-label {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: start;
+    cursor: pointer;
+  }
+
+  .application-form__checkbox-checkbox {
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+  }
+
+  .application-form__checkbox-input:checked
+    + .application-form__checkbox-label
+    .application-form__checkbox-gal {
+    width: 11.2px;
+    height: 11.2px;
+  }
+
+  .application-form__checkbox-span {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .application {
+    width: 100%;
+    height: 450px;
+    column-gap: 0px;
+    padding: 30px;
+    padding-left: 30px;
+  }
+
+  
+  .appl-cont {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .application-info {
+    row-gap: 20px;
+  }
+
+  .application-info__title {
+    font-size: 32px;
+  }
+
+  .application-info__text {
+    font-size: 16px;
+  }
+
+  .application-info__select {
+    column-gap: 20px;
+    row-gap: 25px;
+    width: auto;
+  }
+
+  .application-info__select-item {
+    row-gap: 10px;
+  }
+
+  .application-info__select-title {
+    font-size: 16px;
+  }
+
+  .application-info__select-list {
+    column-gap: 10px;
+  }
+
+  .application-info__select-checkbox {
+    display: none;
+  }
+
+  .application-info__select-label {
+    width: 130px;
+    height: 48px;
+    font-size: 13px;
+  }
+
+  .dop-margin {
+    margin-left: 10px;
+  }
+
+  .application-form {
+    width: 600px;
+    height: 350px;
+    margin-left: auto;
+    row-gap: 30px;
+    padding: 20px;
+  }
+
+  .application-form__title {
+    font-size: 18px;
+  }
+
+  .application-form__form {
+    row-gap: 20px;
+  }
+
+  .application-form__input {
+    padding-bottom: 6px;
+    font-size: 14px;
+  }
+
+  .application-form__input::placeholder {
+    font-size: 14px;
+  }
+
+  .application-form__input-row {
+    column-gap: 15px;
+  }
+
+  .application-form__button {
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .application-form__checkbox {
+    margin-top: 0px;
+  }
+
+  .application-form__checkbox-input {
+    display: none;
+  }
+
+  .application-form__checkbox-label {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: start;
+    cursor: pointer;
+  }
+
+  .application-form__checkbox-checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .application-form__checkbox-span {
+    max-width: 80%;
+  }
+
+  .application-form__checkbox-input:checked
+    + .application-form__checkbox-label
+    .application-form__checkbox-gal {
+    width: 11.2px;
+    height: 11.2px;
+  }
+
+  .application-form__checkbox-span {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .application {
+    width: 100%;
+    height: 480px;
+    column-gap: 10px;
+    padding: 30px;
+    padding-left: 30px;
+    padding-right:10px;
+  }
+
+  .appl-cont {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .application-info {
+    row-gap: 10px;
+  }
+
+  .application-info__title {
+    font-size: 26px;
+  }
+
+  .application-info__text {
+    font-size: 14px;
+    max-width: 500px;
+    display: inline;
+  }
+
+  .application-info__select {
+    column-gap: 10px;
+    row-gap: 15px;
+    width: 350px;
+  }
+
+  .application-form__checkbox-span {
+    max-width: 80%;
+  }
+
+  .application-info__select-item {
+    row-gap: 10px;
+  }
+
+  .application-info__select-title {
+    font-size: 16px;
+  }
+
+  .application-info__select-list {
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .application-info__select-checkbox {
+    display: none;
+  }
+
+  .application-info__select-label {
+    width: 140px;
+    height: 48px;
+    font-size: 14px;
+  }
+
+  .dop-margin {
+    margin-left: 0;
+  }
+
+  .application-form {
+    width: 450px;
+    height: 400px;
+    row-gap: 30px;
+    padding: 20px;
+    margin-top: auto;
+  }
+
+  .application-form__title {
+    font-size: 18px;
+  }
+
+  .application-form__form {
+    row-gap: 20px;
+  }
+
+  .application-form__input {
+    padding-bottom: 6px;
+    font-size: 14px;
+  }
+
+  .application-form__input::placeholder {
+    font-size: 14px;
+  }
+
+  .application-form__input-row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .application-form__button {
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .application-form__checkbox {
+    margin-top: 0px;
+  }
+
+  .application-form__checkbox-input {
+    display: none;
+  }
+
+  .application-form__checkbox-label {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: start;
+    cursor: pointer;
+  }
+
+  .application-form__checkbox-checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .application-form__checkbox-input:checked
+    + .application-form__checkbox-label
+    .application-form__checkbox-gal {
+    width: 11.2px;
+    height: 11.2px;
+  }
+
+  .application-form__checkbox-span {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .application {
+    display: none;
+  }
+
+  .application--mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+    transition: height 0.3s ease;
+    height: auto;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #1e1e20;
+    row-gap: 20px;
+  }
+
+  .application--mobile__title {
+    font-family: "Steppe";
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    line-height: 100%;
+  }
+
+  .application--mobile__text {
+    font-family: "Steppe";
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+    line-height: 100%;
+  }
+
+  .application--mobile__screen {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease;
+    width: 100%;
+    align-items: start;
+    row-gap: 15px;
+  }
+
+  .hide {
+    transform: translateX(-100%);
+}
+
+.show {
+    transform: translateX(0);
+}
+
+  .application--mobile__screen-2,
+  .application--mobile__screen-3,
+  .application--mobile__screen-4,
+  .application--mobile__screen-5 {
+    display: none;
+  }
+
+  .application--mobile__screen-title {
+    font-family: "Steppe";
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .application--mobile__back {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-right: auto;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .application--mobile__back-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 0.36px solid #888888;
+  }
+
+  .application--mobile__back-icon {
+    width: 8px;
+    height: 10px;
+  }
+
+  .application--mobile__back-text {
+    text-decoration: underline;
+    font-family: "Steppe";
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+    text-underline-offset: 4px;
+  }
+
+  .application-info__select-label {
+    width: 100%;
+    border: 1px solid white;
+    color: #cfcfcf;
+  }
+
+  .application-info__select-checkbox:checked + .application-info__select-label {
+    border: 1px solid var(--yellow);
+  }
+
+  .dop-margin {
+    margin-left: 0;
+  }
+
+  .circles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 4px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .circle {
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+  }
+
+  .circle-active {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--yellow);
+  }
+
+  .application-form__form {
+    row-gap: 30px;
+  }
+
+  .application-form__input {
+    font-size: 14px;
+  }
+
+  .application-form__checkbox {
+    margin-top: 0;
+  }
+
+  .application-form__checkbox-span {
+    font-size: 10px;
+    width: 256px;
+  }
+
+  .application--mobile__screen-complete {
+    width: 49px;
+    height: 49px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .application--mobile__screen-complete-text {
+    font-size: 14px;
+    font-family: "Steppe";
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hide {
+    transform: translateX(-100%);
+}
+
+.show {
+    transform: translateX(0);
+}
+
+.formActive-1 {
+  height: 330px;
+}
+
+.formActive-2 {
+  height: 360px;
+}
+
+.formActive-3 {
+  height: 490px;
+}
+
+.formActive-4 {
+  height: 590px;
+}
+
+.formActive-5 {
+ height: 290px;
+}
+}
+
+@media screen and (max-width: 479px) {
+  .application {
+    display: none;
+  }
+
+  .application--mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    transition: height 0.3s ease;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #1e1e20;
+    row-gap: 20px;
+  }
+
+  .application--mobile__title {
+    font-family: "Steppe";
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    line-height: 100%;
+  }
+
+  .application--mobile__text {
+    font-family: "Steppe";
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+    line-height: 100%;
+  }
+
+  .application--mobile__screen {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    width: 100%;
+    align-items: start;
+    row-gap: 15px;
+  }
+
+  .hide {
+    transform: translateX(-100%);
+}
+
+.show {
+    transform: translateX(0);
+}
+
+.formActive-1 {
+  height: 350px;
+}
+
+.formActive-2 {
+  height: 390px;
+}
+
+.formActive-3 {
+  height: 510px;
+}
+
+.formActive-4 {
+  height: 620px;
+}
+
+.formActive-5 {
+ height: 300px;
+}
+
+  .application--mobile__screen-2,
+  .application--mobile__screen-3,
+  .application--mobile__screen-4,
+  .application--mobile__screen-5 {
+    display: none;
+  }
+
+  .application--mobile__screen-title {
+    font-family: "Steppe";
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .application--mobile__back {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-right: auto;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .application--mobile__back-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 0.36px solid #888888;
+  }
+
+  .application--mobile__back-icon {
+    width: 8px;
+    height: 10px;
+  }
+
+  .application--mobile__back-text {
+    text-decoration: underline;
+    font-family: "Steppe";
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+    text-underline-offset: 4px;
+  }
+
+  .application-info__select-label {
+    width: 100%;
+    border: 1px solid white;
+    color: #cfcfcf;
+  }
+
+  .application-info__select-checkbox:checked + .application-info__select-label {
+    border: 1px solid var(--yellow);
+  }
+
+  .dop-margin {
+    margin-left: 0;
+  }
+
+  .circles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 4px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .circle {
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+  }
+
+  .circle-active {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--yellow);
+  }
+
+  .application-form__form {
+    row-gap: 30px;
+  }
+
+  .application-form__input {
+    font-size: 14px;
+  }
+
+  .application-form__checkbox {
+    margin-top: 0;
+  }
+
+  .application-form__checkbox-span {
+    font-size: 10px;
+    width: 256px;
+  }
+
+  .application--mobile__screen-complete {
+    width: 49px;
+    height: 49px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .application--mobile__screen-complete-text {
+    font-size: 14px;
+    font-family: "Steppe";
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
