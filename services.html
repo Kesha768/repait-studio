@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Услуги</title>
+    <meta name="format-detection" content="telephone=no" />
+      <link rel="icon" href="./images/logo-small.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/all.css" />
+    <link rel="stylesheet" href="styles/pages/services/services.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script/app.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a class="header-logo ada" href="/">
+        <img
+          class="header-logo__svg ada"
+          src="images/логоБел.svg"
+          alt="Студия ремонта Андрея Лебедева"
+        />
+      </a>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-item white header-nav-item--blackLine" href="/"
+              >Главная</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a
+              class="header-nav-item white header-nav-item--blackLine"
+              href="service-based.html"
+              >Услуги</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a
+              class="header-nav-item white header-nav-item--blackLine"
+href="proect.html"
+              >Проекты</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a
+              class="header-nav-item white header-nav-item--blackLine"
+              href="articles.html"
+              >Статьи</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a
+              class="header-nav-item white header-nav-item--blackLine"
+              href="about_us.html"
+              >О студии</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a
+              class="header-nav-item white header-nav-item--blackLine"
+              href="contacts.html"
+              >Контакты</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <nav class="header-nav--mobile mobile">
+        <a class="header-logo--mobile" href="/">
+          <img
+            class="header-logo__svg ada"
+            src="images/лого.svg"
+            alt="Студия ремонта Андрея Лебедева"
+          />
+        </a>
+        <ul class="header-nav-list--mobile">
+          <a href="about_us.html" class="header-nav-item--mobile">О компании</a>
+          <a href="services.html" class="header-nav-item--mobile"
+            >Услуги <span class="header-nav-item-number--mobile">{3}</span></a
+          >
+          <a href="proect.html" class="header-nav-item--mobile"
+            >Проекты <span class="header-nav-item-number--mobile">{15}</span></a
+          >
+          <a href="articles.html" class="header-nav-item--mobile"
+            >Статьи <span class="header-nav-item-number--mobile">{3}</span></a
+          >
+          <a href="contacts.html" class="header-nav-item--mobile">Контакты</a>
+        </ul>
+        <div class="header-nav-line"></div>
+        <a href="#form" class="header-nav-button--mobile">Заказать проект</a>
+        <div class="header-nav-line"></div>
+        <ul class="header-nav-list--mobile">
+          <a href="tel:+79677573353" class="header-nav-item--mobile"
+            >+7 967 757 33 53</a
+          >
+          <a
+            href="mailto:studiyalebedeva@yandex.ru"
+            class="header-nav-item--mobile"
+            >studiyalebedeva@yandex.ru</a
+          >
+          <li class="header-nav-item--mobile">
+            Красноармейская улица, 115, Йошкар-Ола
+          </li>
+          <li class="header-nav-item--mobile-row">
+            <a href="" class="header-nav-item--mobile-link">Вконтакте</a>
+            /
+            <a href="" class="header-nav-item--mobile-link">Телеграм</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#form" class="header-button"
+        >Заказать проект
+        <svg
+          class="header-button_icon"
+          viewBox="0 0 17 13"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1.3125 6.49988L15.6875 6.49988M15.6875 6.49988L10.2969 0.749878M15.6875 6.49988L10.2969 12.2499"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+      <div class="burger-menu">
+        <div class="burger-menu-line"></div>
+        <div class="burger-menu-line"></div>
+      </div>
+    </header>
+
+    <main class="services">
+      <h1 class="">Услуги</h1>
+      <section class="services-cards">
+        <a href="service-based.html" class="services-item">
+          <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.58333 0H11L6.41667 22H0L4.58333 0Z" fill="white"/>
+          </svg>
+          <span class="services-name">Базовый<br />дизайн-проект</span>
+          <span class="services-info">Чертежи и документы, которые содержат подробную информацию о планировке помещения, расположении мебели и оборудования.</span>
+          <a href="service-based.html" class="services-button">Подробнее</a>
+        </a>
+        <a href="service-full.html" class="services-item">
+          <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.58333 0H11L6.41667 22H0L4.58333 0Z" fill="white"/>
+            <path d="M16 0H23L18 22H11L16 0Z" fill="white"/>
+          </svg>            
+          <span class="services-name">Полный<br />дизайн-проект</span>
+          <span class="services-info">В дополнение к базовому проекту подбираем подходящие материалы, просчитываем, сколько это будет стоить, и создаём реалистичные картинки.</span>
+          <a href="service-full.html" class="services-button">Подробнее</a>
+        </a>
+        <a href="service-3d.html" class="services-item">
+          <svg width="34" height="22" viewBox="0 0 34 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.58333 0H11L6.41667 22H0L4.58333 0Z" fill="white"/>
+            <path d="M16 0H23L18 22H11L16 0Z" fill="white"/>
+            <path d="M27.5833 0H34L29.4167 22H23L27.5833 0Z" fill="white"/>
+          </svg>            
+          <span class="services-name">3D<br />визуализация</span>
+          <span class="services-info">Позволяет увидеть, как будет выглядеть помещение после завершения работ, оценить сочетание цветов, форм и текстур.</span>
+          <a href="service-3d.html" class="services-button">Подробнее</a>
+        </a>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-info">
+        <span class="small-grey-span">{Связаться с нами}</span>
+        <span class="footer-info-ask">Заинтересовались нашими проектами?</span>
+        <p class="footer-info-text">
+          Мы будем рады обсудить возможности сотрудничества и создать нечто
+          выдающееся специально для Вас.
+        </p>
+        <a class="footer-info__go-work scroll-to-form"
+          >Давайте начнём совместную работу</a
+        >
+        <span class="footer-info__copyright"
+          >Copyright © Студия ремонта Андрея Лебедева<br />2025</span
+        >
+      </div>
+      <div></div>
+      <div></div>
+      <div class="footer-tabs">
+        <span class="small-grey-span">{Разделы}</span>
+        <ul class="footer-tabs__menu">
+          <li class="footer-tabs__menu-item">
+            <a href="about_us.html" class="footer-tabs__menu-link grey" href=""
+              >О компании</a
+            >
+          </li>
+          <li class="footer-tabs__menu-item">
+            <a
+              href="service-based.html"
+              class="footer-tabs__menu-link no-mob grey"
+              href=""
+              >Услуги <span class="footer-tabs__menu-link--count">{3}</span></a
+            >            <a
+              href="services.html"
+              class="footer-tabs__menu-link grey mob"
+              href=""
+              >Услуги <span class="footer-tabs__menu-link--count">{3}</span></a
+            >
+          </li>
+          <li class="footer-tabs__menu-item">
+            <a href="proect.html" class="footer-tabs__menu-link grey" href=""
+              >Проекты
+              <span class="footer-tabs__menu-link--count">{15}</span></a
+            >
+          </li>
+          <li class="footer-tabs__menu-item">
+            <a href="articles.html" class="footer-tabs__menu-link grey" href=""
+              >Статьи <span class="footer-tabs__menu-link--count">{3}</span></a
+            >
+          </li>
+          <li class="footer-tabs__menu-item">
+            <a href="contacts.html" class="footer-tabs__menu-link grey" href=""
+              >Контакты</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footer-contacts">
+        <span class="small-grey-span">{Контакты}</span>
+        <a href="tel:+79677573353" class="footer-contacts__text grey"
+          >+7 967 757 33 53</a
+        >
+        <a
+          href="mailto:studiyalebedeva@yandex.ru"
+          class="footer-contacts__text grey"
+          >studiyalebedeva@yandex.ru</a
+        >
+        <span class="footer-contacts__text grey"
+          >Красноармейская улица, 115, Йошкар-Ола</span
+        >
+        <div class="footer-contacts__social">
+          <a href="" class="footer-contacts__text grey">Вконтакте</a>
+          <span class="footer-contacts__text">/</span>
+          <a href="" class="footer-contacts__text grey">Телеграм</a>
+        </div>
+        <a href="/" class="footer-contacts__logo">
+          <img
+            class="header-logo__svg ada"
+            src="images/лого.svg"
+            alt="Студия ремонта Андрея Лебедева"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

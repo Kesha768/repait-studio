@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "countup.js": "^2.8.2",
+    "fslightbox": "^3.5.1",
+    "sass": "^1.86.3",
+    "wowjs": "^1.1.3"
+  }
+}
